@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <nav>
+                <img src="./logoup.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1><span>Hi, I'm Shivpujan <br>Kumar From India</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <img src="./pic2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a third-year student pursuing a Bachelor's degree in Information Technology, I am passionate about exploring the ever-evolving landscape of technology and its applications in solving real-world problems. With a keen interest in areas such as software development, data analysis, and cybersecurity, I am driven by a curiosity to delve deeper into the intricacies of IT systems and their impact on society. My journey in IT has equipped me with a diverse skill set, including proficiency in programming languages such as C++, Java, C programming language, and MERN Development, as well as experience in designing and implementing software solutions. Beyond academics, I am an avid learner, constantly seeking new challenges and opportunities to expand my knowledge and expertise in the field. Through my dedication and commitment, I aspire to make meaningful contributions to the world of technology and become a catalyst for positive change.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design training at my institute</li>
+                            <li><span>2019 - 2021</span><br>CP in Codechef </li>
+                            <li><span>2017 - 2019</span><br>Had internship for two years </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 2025 </span><br>B Tech (Information Technology)</li>
+                            <li><span>2018 - 2020 </span><br>I.Sc From +2 S.R.S.S.R HIGH SCHOOL SARIYA</li>
+                            <li><span>2018</span><br>METRICULATION  From +2 S.R.S.S.R HIGH SCHOOL SARIYA</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Web development is my passion, a realm where creativity meets functionality. The intricate dance of coding languages, the canvas of a blank screen waiting to be adorned with lines of HTML, CSS, and JavaScript—it's where I find my joy.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p>UI/UX design is where my passion truly thrives. It's the perfect fusion of artistry and functionality, where every pixel matters and every interaction tells a story. Creating intuitive interfaces that delight users and enhance their experiences is what drives me.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>App development ignites my passion like nothing else. It's a journey of innovation, problem-solving, and endless possibilities. Crafting intuitive user experiences and seamless interactions is where I thrive.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------portfolio--------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>I made Social Meadia Applicatin using HTML CSS AND JAVASCRIPT</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>I made Music Applicatin using HTML CSS AND JAVASCRIPT exactly clone of spotify</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>I made Amazone Clone for Shopping</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ------------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shivpujansingh6514@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9905091472</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="./My resume(Shivpujan).pdf" class="btn btn2">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Shivpujan. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5taopddfKbgfCgi-sKXTBxZEqOf1KXaum2F-JQ4cvIpt35IVgEMxMkZvOrC_nYUS3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfilly"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
